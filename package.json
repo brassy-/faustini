@@ -1,0 +1,48 @@
+{
+  "name": "faustini",
+  "description": "Studio Faustini website.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mattcav/faustini",
+  "author": {
+    "name": "mattcav",
+    "url": "http://github.com/mattcav/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattcav/faustini.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattcav/faustini/issues"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "grunt assemble"
+  },
+  "devDependencies": {
+    "assemble": "~0.4.37",
+    "grunt": "~0.4.4",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-connect": "~0.7.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "load-grunt-tasks": "~0.4.0",
+    "time-grunt": "~0.3.1",
+    "grunt-sass": "~0.12.0",
+    "grunt-autoprefixer": "~0.7.2"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mattcav/faustini/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "assemble",
+    "templates",
+    "handlebars",
+    "site generator",
+    "site builder",
+    "grunt"
+  ]
+}
